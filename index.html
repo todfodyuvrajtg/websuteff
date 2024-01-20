@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Osr Broadband | Noida</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">OM SAI RAM BROADBAND</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" 
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello,<br><span></span></h2>
+            <h3>OM SAI RAM BROADBAND ENTERPRISES</h3>
+            <a href="#about" class="btn">About us</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About US</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>OM SAI RAM BROADBAND ENTERPRISES</h3>
+                <!--Lorem is text in put-->
+                <p>We are pleased to introduce ourselves as the leading OM SAI RAM BROADBAND  (FTTH) Service provider Company through GEPON Technology (Fiber To The Home) our company known as “OM SAI RAM BROADBAND” providing services like Digital Cable TV,IP TV, Basic Telephone, High speed internet and VoIP in Noida And Greater Noida [UP] </p>
+            </div>
+            <div class="w50">
+                <img src="img/img1.jpg" class="img">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="img/icon1.png">
+                <h2>Broadband</h2>
+                <p>Step into the future of broadband internet with OSR Networks</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon2.png">
+                <h2>Secure Network</h2>
+                <p>The high-end aggregated routers, switches and network connectivity through best designed fiber infrastructure allows you to experience the best of the internet in a safe and secure way. It also ensures that there is negligible interference, minimal breakage, and the transmission is faster, reliable, and less error-prone.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="img/icon3.png">
+                <h2>FTTH</h2>
+                <p>Fiber to the home (FTTH) is the conveyance of an interchanges motion over optical fiber from the administrator's exchanging gear the distance to a home or business, in this way supplanting existing copper framework, for example, phone wires or, on the other hand coaxial link.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="icon4.png">
+                <h2>High Speed Internet</h2>
+                <p>Osr is India's fastest growing Broadband Internet Service Provider offering unlimited plans from 100 Mbps to 300 Mbps at very affordable prices. </p>
+            </div>
+            
+    </section>
+    
+    <h2>
+PLAN STARTING ₹499
+</h2>
+
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBox">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+              Noida,Uttarpradesh<br></p>
+                         </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>9210663835,9350708072</p>
+                         </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>helpdesk.omsainoida@gmail.com</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>OM SAI RAM BR0ADBAND</p>
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        function toggleMenu(){
+            var  menuToggle = document.querySelector('.toggle');
+            var  menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active')
+            menu.classList.toggle('active')
+        }
+    </script>
+</body>
+</html>
